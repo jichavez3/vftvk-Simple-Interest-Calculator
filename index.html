@@ -13,7 +13,7 @@
             <h1>Simple Interest Calculator</h1>
     
             Amount <input type="number"  id="principal">  <br/>
-            Rate <input type="range" id="rate" min=1 max=20 value=10.25 step=0.25>
+            Rate <input type="range" id="rate" min=1 max=20 value=10.25 step=0.25 onchange="updateRate()">
             <span id="rate_val">
                 10.25%
             </span> <br/>
@@ -28,13 +28,12 @@
                 <option value="8">8</option>
                 <option value="9">9</option>
                 <option value="10">10</option>
-            </select>  <br/>
-            Interest : <span id="result"></span> <br/><br/>
+            </select>  <br/><br/>
     
             <button onclick="compute()">Compute Interest</button> <br/><br/>
             <span id="result">
     
-            </span>
+            </span><br/><br/>
             <footer>
                 &#169; This Calculator belongs to Jason
             </footer>
