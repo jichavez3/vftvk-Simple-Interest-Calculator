@@ -34,7 +34,7 @@ function checkdata()
 
     if(principal < 1)
     {
-        alert("Please enter an amount greater than 0.");
+        alert("Please enter a positive number.");
         document.getElementById("principal").focus();
         return false;
     }
