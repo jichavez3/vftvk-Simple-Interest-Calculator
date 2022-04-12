@@ -6,7 +6,7 @@ h1 {color:grey;font-family:verdana}
     width: 500px;
     padding:20px;
     border-radius:25px;
-    align-self: center
+    text-align: center;
 }
 .highlight{
     background-color: yellow;
